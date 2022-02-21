@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+.navbar {
+    background-color: black;
+    height: 13vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.main {
+    height: 87vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.mainBox {
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color:black;
+    opacity: 0.8;
+    color: lightgreen;
+    position: absolute;
+    border-radius: 30px; /*Efeito de arredonaento de borade de elemento*/
+    border: 1em;
+    text-align: center;
+    /*               
+    centralizando uma div absolute dentro de uma div relative
+    */
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    width:50%; 
+    height: 50%;
+    /* Essa Propriedade box-shadow serve para adicionar efeito de sombra. OffSet x e y + cor*/
+    box-shadow: 120px,5px, 5px, 50px, black;
+}
+
+.inputCity{
+    height: 30px;
+    width: 200px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: lightgray;
+   
+}
+
+.temperatura{
+    font-size: 50px;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    color: aliceblue;
+}
+
+.navBar {
+    width: 100vw;
+    height: 15 vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+.logo{
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 46px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+.main-box{
+    position: relative;
+    left: 30%;
+    bottom: -20%;
+    justify-content : center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 23px;
+    background-color: darkslategrey;
+    border-radius: 5%;
+    height: 50vh;
+    width: 40vw;
+    align-items: center;
+    text-align:  center;
+    align-content: center;
+}

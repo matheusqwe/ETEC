@@ -1,0 +1,19 @@
+*{
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+body{
+    position: absolute;
+    background-color: black;
+    color:aquamarine;
+}
+.contentPage{
+    position: relative;
+    align-self: center;
+    justify-content: space-around;
+    left: 50%;
+    top: 50%;
+}
