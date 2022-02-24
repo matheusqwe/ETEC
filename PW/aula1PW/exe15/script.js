@@ -10,5 +10,9 @@ document.querySelector(".btnEnviar").addEventListener('click', () => {
 
     console.log("durou " + segundos + "segundos")
     console.log(numRadioativo)
+    if(isNaN(numRadioativo)) {
+        throw alert("Erro, o resultado final nao e um number
+        ")
+    }
 
 })
